@@ -10,8 +10,10 @@ public class questionsPage {
         Font font = new Font("Serif", Font.BOLD, 20);
         // Create and configure the panel
         JPanel panel = new JPanel();
+        panel.setBackground(Color.YELLOW);
         panel.setBounds(0, 0, 600, 600);
-        panel.setLayout(null);
+        panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
+        panel.add(Box.createRigidArea(new Dimension(10, 10)));
 
         // Question 1
         JLabel question1 = new JLabel("How is attractive user interface of software in your opinion?");
