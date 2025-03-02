@@ -19,6 +19,7 @@ public class Main {
 
         // Create and configure the main panel
         JPanel panel = new JPanel();
+        panel.setBackground(Color.YELLOW);
         panel.setLayout(new BorderLayout());
         panel.setBounds(0, 0, 600, 600);
 

@@ -10,6 +10,7 @@ public class questionsPage {
         Font font = new Font("Serif", Font.BOLD, 20);
         // Create and configure the panel
         JPanel panel = new JPanel();
+        panel.setBackground(Color.YELLOW);
         panel.setBounds(0, 0, 600, 600);
         panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
 

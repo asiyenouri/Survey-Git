@@ -11,6 +11,7 @@ public class informationPage {
 
         // Create the main panel
         JPanel panel = new JPanel();
+        panel.setBackground(Color.YELLOW);
         panel.setBounds(0, 0, 600, 600);
         panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
 

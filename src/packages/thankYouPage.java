@@ -11,6 +11,7 @@ public class thankYouPage {
 
         // Create and configure the panel
         JPanel panel = new JPanel();
+        panel.setBackground(Color.YELLOW);
         panel.setLayout(new BorderLayout());
         panel.setBounds(0, 0, 600, 600);
 
