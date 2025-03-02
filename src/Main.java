@@ -25,6 +25,8 @@ public class Main {
 
         // Create title label
         JLabel title = new JLabel("Survey Form");
+        title.setHorizontalAlignment(SwingConstants.CENTER);
+        title.setVerticalAlignment(SwingConstants.CENTER);
         title.setFont(font);
         title.setBounds(10, 10, 100, 20);
 
